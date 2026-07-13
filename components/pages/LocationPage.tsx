@@ -49,6 +49,25 @@ export default function LocationPage({ locale }: { locale: Locale }) {
         </div>
       </FadeIn>
 
+      {/* Golf spotlight: named courses around the house */}
+      <FadeIn as="section" className="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
+        <div className="rounded-2xl border border-sage/40 bg-white p-6 sm:p-10">
+          <p className="eyebrow !text-sage-deep">{t.location.golf.title}</p>
+          <p className="mt-3 max-w-2xl text-molasses-soft">{t.location.golf.intro}</p>
+          <ul className="mt-8 grid gap-x-10 gap-y-4 sm:grid-cols-2">
+            {t.location.golf.courses.map((course) => (
+              <li key={course.name} className="flex items-start gap-3 text-sm">
+                <span aria-hidden="true" className="mt-1.5 h-1.5 w-1.5 flex-none rotate-45 bg-sage" />
+                <span>
+                  <strong className="text-molasses">{course.name}</strong>
+                  <span className="text-molasses-soft"> — {course.note}</span>
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </FadeIn>
+
       {/* Distance cards */}
       <FadeIn as="section" className="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
         <h2 className="text-center text-3xl">{t.location.distancesTitle}</h2>

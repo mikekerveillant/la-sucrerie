@@ -229,7 +229,7 @@ const fr = {
     activities: [
       {
         title: "Le golf",
-        body: "Plusieurs parcours à quelques minutes, à commencer par le prestigieux golf de Saint-Nom-la-Bretèche, notre voisin immédiat. Idéal pour un séjour golfique en groupe.",
+        body: "Le prestigieux golf de Saint-Nom-la-Bretèche est notre voisin immédiat, et une dizaine de parcours l'entourent — dont Le Golf National, théâtre de la Ryder Cup 2018. Idéal pour un séjour golfique en groupe.",
       },
       {
         title: "Les chevaux",
@@ -244,6 +244,21 @@ const fr = {
         body: "Versailles à 20 minutes, Saint-Germain-en-Laye tout proche — et de belles excursions en famille dans tout le pays des châteaux des Yvelines.",
       },
     ],
+    golf: {
+      title: "Pour les golfeurs",
+      intro:
+        "La maison est entourée de parcours — les plus proches se rejoignent en quelques minutes, les grands noms de la région en une petite demi-heure. De quoi jouer un parcours différent chaque jour du séjour.",
+      courses: [
+        { name: "Golf de Saint-Nom-la-Bretèche", note: "notre voisin immédiat — le parcours de prestige de la plaine" },
+        { name: "Golf de Noisy-le-Roi", note: "à quelques minutes de la maison" },
+        { name: "Golf de Feucherolles", note: "grand parcours voisin, dans la plaine" },
+        { name: "Golf de Joyenval (Chambourcy)", note: "deux parcours signés Robert Trent Jones Sr., autour des ruines d'une abbaye du XIIIᵉ siècle" },
+        { name: "Club de Fourqueux", note: "club historique aux portes de Saint-Germain-en-Laye" },
+        { name: "Le Golf National (Guyancourt)", note: "l'Albatros — théâtre de la Ryder Cup 2018 et de l'Open de France" },
+        { name: "Golf de Saint-Germain", note: "parcours classique de 1920 dessiné par Harry S. Colt" },
+        { name: "Golf des Yvelines", note: "27 trous en lisière de la forêt de Rambouillet" },
+      ],
+    },
     distancesTitle: "À combien de temps ?",
     minutes: (n: number) => `~${n} min en voiture`,
     distances: {
@@ -644,7 +659,7 @@ const en: DeepDict = {
     activities: [
       {
         title: "Golf",
-        body: "Several courses just minutes away, starting with the prestigious Saint-Nom-la-Bretèche golf club, our immediate neighbour. Ideal for a group golf trip.",
+        body: "The prestigious Saint-Nom-la-Bretèche golf club is our immediate neighbour, with some ten courses around it — including Le Golf National, host of the 2018 Ryder Cup. Ideal for a group golf trip.",
       },
       {
         title: "Horses",
@@ -659,6 +674,21 @@ const en: DeepDict = {
         body: "Versailles 20 minutes away, Saint-Germain-en-Laye close by — and lovely family outings all across the château country of the Yvelines.",
       },
     ],
+    golf: {
+      title: "For golfers",
+      intro:
+        "The house is surrounded by courses — the closest are minutes away, the region's great names within half an hour. Enough to play a different course every day of your stay.",
+      courses: [
+        { name: "Golf de Saint-Nom-la-Bretèche", note: "our immediate neighbour — the plain's most prestigious course" },
+        { name: "Golf de Noisy-le-Roi", note: "a few minutes from the house" },
+        { name: "Golf de Feucherolles", note: "a large course nearby on the plain" },
+        { name: "Golf de Joyenval (Chambourcy)", note: "two courses by Robert Trent Jones Sr., set around the ruins of a 13th-century abbey" },
+        { name: "Club de Fourqueux", note: "a historic club at the gates of Saint-Germain-en-Laye" },
+        { name: "Le Golf National (Guyancourt)", note: "the Albatros — stage of the 2018 Ryder Cup and the French Open" },
+        { name: "Golf de Saint-Germain", note: "a classic 1920 layout designed by Harry S. Colt" },
+        { name: "Golf des Yvelines", note: "27 holes bordering the Rambouillet forest" },
+      ],
+    },
     distancesTitle: "How far is…?",
     minutes: (n: number) => `~${n} min by car`,
     distances: {
