@@ -43,8 +43,8 @@ landscape.
       browser console instead of being sent.
 
 ## 5. Domain
-- [ ] Set `NEXT_PUBLIC_SITE_URL` to the real domain (affects SEO tags,
-      sitemap, social previews)
+- [x] Domain set to `https://www.la-sucrerie.com` — done 2026-07-13.
+      (Still to do at deploy time: point the DNS of la-sucrerie.com at Vercel.)
 
 ## 6. Wording — `config/i18n.ts`
 - [ ] **Testimonials** — all 6 quotes (in both `fr` and `en` sections) are
