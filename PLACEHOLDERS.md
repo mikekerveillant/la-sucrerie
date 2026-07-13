@@ -47,9 +47,8 @@ landscape.
       (Still to do at deploy time: point the DNS of la-sucrerie.com at Vercel.)
 
 ## 6. Wording — `config/i18n.ts`
-- [ ] **Testimonials** — all 6 quotes (in both `fr` and `en` sections) are
-      marked `[EXEMPLE — à remplacer]` / `[SAMPLE — replace]`. Replace with
-      real Airbnb guest quotes.
+- [x] **Testimonials** — replaced with 6 real Airbnb reviews (Eliane, Sarah,
+      Matthieu & Priscilia, Marzia, Adele & Marc, Elisabeth) — done 2026-07-13
 - [ ] **Cancellation policy FAQ** (Book page) — currently a soft placeholder
       answer; write the real policy
 - [ ] Airport drive times (CDG 50 min, Orly 40 min in `config/property.ts`)

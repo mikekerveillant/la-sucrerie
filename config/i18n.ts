@@ -259,14 +259,45 @@ const fr = {
       value: "Rapport qualité-prix",
     },
     testimonialsTitle: "Paroles d'hôtes",
-    // PLACEHOLDER TESTIMONIALS — replace every quote below with real guest reviews.
+    // Real Airbnb reviews (5★). English-language originals are translated;
+    // the original wording lives in the `en` section below.
     testimonials: [
-      { quote: "[EXEMPLE — à remplacer] Une maison pleine de charme, parfaite pour notre week-end à 14. Le billard a occupé les enfants… et les grands.", name: "Camille", detail: "Séjour en famille" },
-      { quote: "[EXEMPLE — à remplacer] Idéalement placé pour visiter Versailles le jour et dîner à Paris le soir. Accueil chaleureux.", name: "Thomas", detail: "Entre amis" },
-      { quote: "[EXEMPLE — à remplacer] La cuisine est un rêve pour cuisiner en groupe, et le jardin est superbe en été.", name: "Sophie", detail: "Fête de famille" },
-      { quote: "[EXEMPLE — à remplacer] Parfait pour notre semaine de golf à Saint-Nom-la-Bretèche, à cinq minutes du parcours.", name: "Marc", detail: "Séjour golf" },
-      { quote: "[EXEMPLE — à remplacer] Une maison qui a une âme. On s'y sent tout de suite chez soi.", name: "Élodie", detail: "Week-end en famille" },
-      { quote: "[EXEMPLE — à remplacer] Hôtes disponibles et de bon conseil, arrivée très simple, literie excellente.", name: "Julien", detail: "Groupe d'amis" },
+      {
+        quote:
+          "Nous avons eu le privilège de passer les fêtes de Noël en famille à la Sucrerie. Outre le cadre exceptionnel, nous avons particulièrement apprécié le fait que la maison soit véritablement pensée pour les familles. Tout était prévu sur place : du linge de maison aux ustensiles de cuisine en passant par les jeux de société. Petits et grands ont été enchantés par leur séjour.",
+        name: "Eliane",
+        detail: "Décembre 2024 · Noël en famille",
+      },
+      {
+        quote:
+          "La maison est entièrement équipée pour toute la famille, jusqu'au lit bébé et à la chaise haute. Nous étions 15 au total et la maison nous a accueillis parfaitement : tout était impeccable, les lits faits à l'arrivée, le chauffage déjà allumé. Hautement recommandé !",
+        name: "Sarah",
+        detail: "Septembre 2025 · Réunion de famille à 15",
+      },
+      {
+        quote:
+          "Très belle maison permettant d'accueillir jusqu'à 15 personnes sans problème. L'extérieur est parfait pour profiter des beaux jours et la véranda parfaite lorsque le temps est moins clément. Les chambres sont spacieuses, très bien aménagées et joliment décorées. La maison était idéale pour nos retrouvailles entre amis !",
+        name: "Matthieu & Priscilia",
+        detail: "Juin 2025 · Retrouvailles entre amis",
+      },
+      {
+        quote:
+          "Un séjour merveilleux. La maison était propre, confortable et parfaitement équipée. L'emplacement est paisible et pratique, et nos hôtes accueillants et réactifs. Nous reviendrons avec grand plaisir.",
+        name: "Marzia",
+        detail: "Mai 2026 · Alexandria, États-Unis",
+      },
+      {
+        quote:
+          "Un moment merveilleux. La maison est charmante, idéale pour une grande réunion de famille. La cuisine est parfaitement équipée, la véranda lumineuse et chaleureuse, et le salon peut réunir tout le monde. Une vraie expérience 5 étoiles.",
+        name: "Adele & Marc",
+        detail: "Mars 2026 · Doha, Qatar",
+      },
+      {
+        quote:
+          "Nous avons passé un excellent week-end en famille. Merci à Mike et Krystine pour l'accueil chaleureux. C'était un réel bonheur de vivre dans cette très jolie maison, décorée avec goût.",
+        name: "Elisabeth",
+        detail: "Juillet 2025 · Guadeloupe",
+      },
     ],
     airbnbProofTitle: "Vérifiez par vous-même",
     airbnbProofBody:
@@ -623,14 +654,45 @@ const en: DeepDict = {
       value: "Value",
     },
     testimonialsTitle: "In their words",
-    // PLACEHOLDER TESTIMONIALS — replace every quote below with real guest reviews.
+    // Real Airbnb reviews (5★). French-language originals are translated;
+    // the original wording lives in the `fr` section above.
     testimonials: [
-      { quote: "[SAMPLE — replace] A house full of charm, perfect for our weekend of 14. The billiards table kept the kids busy… and the grown-ups.", name: "Camille", detail: "Family stay" },
-      { quote: "[SAMPLE — replace] Ideally placed to visit Versailles by day and dine in Paris by night. Warm welcome.", name: "Thomas", detail: "With friends" },
-      { quote: "[SAMPLE — replace] The kitchen is a dream for group cooking, and the garden is glorious in summer.", name: "Sophie", detail: "Family celebration" },
-      { quote: "[SAMPLE — replace] Perfect for our golf week at Saint-Nom-la-Bretèche, five minutes from the course.", name: "Marc", detail: "Golf trip" },
-      { quote: "[SAMPLE — replace] A house with a soul. You feel at home the moment you arrive.", name: "Élodie", detail: "Family weekend" },
-      { quote: "[SAMPLE — replace] Responsive, helpful hosts, very easy check-in, excellent bedding.", name: "Julien", detail: "Group of friends" },
+      {
+        quote:
+          "We had the privilege of spending the Christmas holidays as a family at La Sucrerie. Beyond the exceptional setting, we especially appreciated that the house is truly designed for families. Everything was on hand: household linen, kitchen utensils, even board games. Young and old were delighted with their stay.",
+        name: "Eliane",
+        detail: "December 2024 · Christmas with family",
+      },
+      {
+        quote:
+          "The house is fully equipped to meet the needs of the whole family, including thoughtful touches like a baby bed and high chair. We were 15 people in total and the house accommodated us perfectly. Everything was spotless, the beds were made on arrival, and the heating was already on. Highly recommended!",
+        name: "Sarah",
+        detail: "September 2025 · Family get-together of 15",
+      },
+      {
+        quote:
+          "A beautiful house that easily welcomes up to 15 people. The outdoor space is perfect for fine days and the veranda ideal when the weather is less kind. The bedrooms are spacious, very well laid out and prettily decorated. The house was ideal for our reunion with friends over a long weekend!",
+        name: "Matthieu & Priscilia",
+        detail: "June 2025 · Friends' reunion",
+      },
+      {
+        quote:
+          "We had a wonderful stay. The house was clean, comfortable, and well-equipped with everything we needed. The location was peaceful and convenient, and the host was friendly and responsive. We truly enjoyed our time here and would gladly stay again. Highly recommended.",
+        name: "Marzia",
+        detail: "May 2026 · Alexandria, USA",
+      },
+      {
+        quote:
+          "We had a wonderful time in Mike's house. Charming, and convenient for a big family gathering. The kitchen was fully equipped, very bright and warm with the veranda; plenty of seats in the living room to gather everyone. We truly had a 5-star experience.",
+        name: "Adele & Marc",
+        detail: "March 2026 · Doha, Qatar",
+      },
+      {
+        quote:
+          "We had an excellent family weekend. Thank you to Mike and Krystine for the warm welcome — it was a real joy to stay in this lovely, tastefully decorated house.",
+        name: "Elisabeth",
+        detail: "July 2025 · Guadeloupe",
+      },
     ],
     airbnbProofTitle: "See for yourself",
     airbnbProofBody:
