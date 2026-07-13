@@ -160,6 +160,7 @@ export const property = {
   distances: [
     { id: "paris", minutesByCar: 35 },
     { id: "versailles", minutesByCar: 20 },
+    { id: "saint-germain", minutesByCar: 20 }, // PLACEHOLDER: confirm drive time
     { id: "golf", minutesByCar: 5 },
     { id: "cdg", minutesByCar: 50 }, // PLACEHOLDER: confirm drive time
     { id: "orly", minutesByCar: 40 }, // PLACEHOLDER: confirm drive time

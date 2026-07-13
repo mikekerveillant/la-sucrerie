@@ -35,6 +35,20 @@ export default function LocationPage({ locale }: { locale: Locale }) {
         </div>
       </FadeIn>
 
+      {/* Why guests come: golf, horses, nature, châteaux */}
+      <FadeIn as="section" className="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
+        <h2 className="text-center text-3xl">{t.location.activitiesTitle}</h2>
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {t.location.activities.map((activity) => (
+            <div key={activity.title} className="rounded-2xl bg-sugar-deep p-6">
+              <span aria-hidden="true" className="block h-2 w-2 rotate-45 bg-sage" />
+              <h3 className="mt-4 font-display text-xl text-molasses">{activity.title}</h3>
+              <p className="mt-2 text-sm text-molasses-soft">{activity.body}</p>
+            </div>
+          ))}
+        </div>
+      </FadeIn>
+
       {/* Distance cards */}
       <FadeIn as="section" className="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
         <h2 className="text-center text-3xl">{t.location.distancesTitle}</h2>

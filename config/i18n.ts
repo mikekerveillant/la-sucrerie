@@ -64,7 +64,7 @@ const fr = {
       "Maison d'hôtes de charme à Chavenay (Yvelines) : maison entière pour 14–16 personnes, 5 chambres, jardin et billard. À 20 min de Versailles, 35 min de Paris. Réservez en direct et économisez 10 % par rapport à Airbnb.",
     heroTitle: "Une maison de famille au sucre d'antan",
     heroSubtitle:
-      "Ancienne sucrerie du XIXᵉ siècle devenue maison d'hôtes, au cœur de Chavenay — la campagne aux portes de Paris et de Versailles.",
+      "Ancienne sucrerie du XIXᵉ siècle devenue maison d'hôtes, au cœur de Chavenay — la pleine campagne à moins d'une heure de Paris, faite pour les grandes retrouvailles.",
     heroCta: "Réserver en direct — −10 %",
     heroSecondaryCta: "Visiter la maison",
     heroImageAlt:
@@ -95,9 +95,9 @@ const fr = {
     ],
 
     locationEyebrow: "Autour de nous",
-    locationTitle: "La campagne, à 35 minutes de Paris",
+    locationTitle: "La campagne, à moins d'une heure de Paris",
     locationBody:
-      "Chavenay est un petit village des Yvelines, voisin du golf de Saint-Nom-la-Bretèche, à 20 minutes du château de Versailles et à 35 minutes de Paris. Le calme de la campagne, sans renoncer à rien.",
+      "Chavenay est un petit village de la plaine de Versailles : la vraie campagne — forêts pour marcher, golfs, centres équestres — avec les châteaux de Versailles et de Saint-Germain-en-Laye en voisins, et Paris à 35 minutes. Le calme, sans renoncer à rien.",
     locationCta: "Découvrir les environs",
 
     testimonialsEyebrow: "Ils ont séjourné ici",
@@ -218,18 +218,38 @@ const fr = {
   },
 
   location: {
-    metaTitle: "Autour de nous — Chavenay, entre Paris, Versailles et le golf",
+    metaTitle: "Autour de nous — Chavenay : golf, équitation, forêts et châteaux",
     metaDescription:
-      "La Sucrerie est à Chavenay, Yvelines : à 20 min du château de Versailles, 35 min de Paris et à côté du golf de Saint-Nom-la-Bretèche. Hébergement de groupe idéal entre ville et campagne.",
+      "La Sucrerie est à Chavenay, dans la plaine de Versailles : golfs, centres équestres, forêts pour marcher et châteaux (Versailles à 20 min, Saint-Germain-en-Laye tout proche), à moins d'une heure de Paris.",
     eyebrow: "Autour de nous",
     title: "Un village des Yvelines, aux portes de tout",
     intro:
       "Chavenay est un petit village de la plaine de Versailles : des champs, un clocher, une boulangerie — et Paris à 35 minutes. C'est ce mélange-là que nos hôtes viennent chercher : la vraie campagne, sans s'éloigner de rien.",
+    activitiesTitle: "Ce qu'on vient chercher ici",
+    activities: [
+      {
+        title: "Le golf",
+        body: "Plusieurs parcours à quelques minutes, à commencer par le prestigieux golf de Saint-Nom-la-Bretèche, notre voisin immédiat. Idéal pour un séjour golfique en groupe.",
+      },
+      {
+        title: "Les chevaux",
+        body: "La plaine de Versailles est une terre équestre : de nombreux centres équestres et poney-clubs entourent le village, pour les cavaliers confirmés comme pour un baptême des enfants.",
+      },
+      {
+        title: "La nature",
+        body: "Chemins de plaine et forêts toutes proches : on part marcher, courir ou pédaler directement depuis la maison, au milieu des champs.",
+      },
+      {
+        title: "Les châteaux",
+        body: "Versailles à 20 minutes, Saint-Germain-en-Laye tout proche — et de belles excursions en famille dans tout le pays des châteaux des Yvelines.",
+      },
+    ],
     distancesTitle: "À combien de temps ?",
     minutes: (n: number) => `~${n} min en voiture`,
     distances: {
       paris: { title: "Paris", body: "La capitale, ses musées et ses lumières — pour une journée ou une soirée." },
       versailles: { title: "Château de Versailles", body: "Le château, ses jardins et le Grand Trianon, à deux pas." },
+      "saint-germain": { title: "Saint-Germain-en-Laye", body: "Le château royal, sa grande terrasse au-dessus de la Seine et ses rues commerçantes." },
       golf: { title: "Golf de Saint-Nom-la-Bretèche", body: "Le célèbre parcours est notre voisin immédiat — idéal pour un séjour golfique en groupe." },
       cdg: { title: "Aéroport Paris-CDG", body: "L'aéroport international principal, accessible par l'A13/A86." },
       orly: { title: "Aéroport d'Orly", body: "Le second aéroport parisien, au sud de la capitale." },
@@ -462,7 +482,7 @@ const en: DeepDict = {
       "Charming guest house in Chavenay (Yvelines): whole house for 14–16 guests, 5 bedrooms, garden and billiards room. 20 min from Versailles, 35 min from Paris. Book direct and save 10% vs Airbnb.",
     heroTitle: "A family house with sugar in its walls",
     heroSubtitle:
-      "A 19th-century sugar works turned guest house, in the heart of Chavenay — true countryside at the gates of Paris and Versailles.",
+      "A 19th-century sugar works turned guest house, in the heart of Chavenay — true countryside less than an hour from Paris, made for big get-togethers.",
     heroCta: "Book direct — save 10%",
     heroSecondaryCta: "Tour the house",
     heroImageAlt: "The facade of La Sucrerie, a characterful 19th-century house in Chavenay",
@@ -492,9 +512,9 @@ const en: DeepDict = {
     ],
 
     locationEyebrow: "The setting",
-    locationTitle: "Countryside, 35 minutes from Paris",
+    locationTitle: "Countryside, less than an hour from Paris",
     locationBody:
-      "Chavenay is a small village in the Yvelines, next door to the Saint-Nom-la-Bretèche golf course, 20 minutes from the Palace of Versailles and 35 minutes from Paris. Real countryside calm, giving up nothing.",
+      "Chavenay is a small village on the Versailles plain: real countryside — forest walks, golf courses, riding stables — with the châteaux of Versailles and Saint-Germain-en-Laye as neighbours, and Paris 35 minutes away. Calm that gives up nothing.",
     locationCta: "Explore the area",
 
     testimonialsEyebrow: "They stayed here",
@@ -613,18 +633,38 @@ const en: DeepDict = {
   },
 
   location: {
-    metaTitle: "Location — Chavenay, between Paris, Versailles and the golf course",
+    metaTitle: "Location — Chavenay: golf, horse riding, forests and châteaux",
     metaDescription:
-      "La Sucrerie is in Chavenay, Yvelines: 20 min from the Palace of Versailles, 35 min from Paris, next to Saint-Nom-la-Bretèche golf course. Ideal group accommodation near Versailles.",
+      "La Sucrerie is in Chavenay on the Versailles plain: golf courses, riding stables, forest walks and châteaux (Versailles 20 min, Saint-Germain-en-Laye close by), less than an hour from Paris. Ideal group accommodation near Versailles.",
     eyebrow: "The setting",
     title: "A Yvelines village, at the gates of everything",
     intro:
       "Chavenay is a small village on the Versailles plain: fields, a church tower, a bakery — and Paris 35 minutes away. That's the blend our guests come for: real countryside, close to everything.",
+    activitiesTitle: "What you come here for",
+    activities: [
+      {
+        title: "Golf",
+        body: "Several courses just minutes away, starting with the prestigious Saint-Nom-la-Bretèche golf club, our immediate neighbour. Ideal for a group golf trip.",
+      },
+      {
+        title: "Horses",
+        body: "The Versailles plain is horse country: riding schools and pony clubs surround the village, for seasoned riders and children's first lessons alike.",
+      },
+      {
+        title: "Nature",
+        body: "Country lanes and forests close by: walk, run or cycle straight from the house, out among the fields.",
+      },
+      {
+        title: "Châteaux",
+        body: "Versailles 20 minutes away, Saint-Germain-en-Laye close by — and lovely family outings all across the château country of the Yvelines.",
+      },
+    ],
     distancesTitle: "How far is…?",
     minutes: (n: number) => `~${n} min by car`,
     distances: {
       paris: { title: "Paris", body: "The capital, its museums and its lights — for a day trip or an evening out." },
       versailles: { title: "Palace of Versailles", body: "The palace, its gardens and the Grand Trianon, right nearby." },
+      "saint-germain": { title: "Saint-Germain-en-Laye", body: "The royal château, its grand terrace above the Seine and its lively shopping streets." },
       golf: { title: "Saint-Nom-la-Bretèche Golf", body: "The famous course is our immediate neighbour — ideal for a group golf trip." },
       cdg: { title: "Paris-CDG Airport", body: "The main international airport, reached via the A13/A86." },
       orly: { title: "Orly Airport", body: "Paris's second airport, south of the capital." },
