@@ -5,20 +5,15 @@ one before pointing real visitors at it. Almost all of them live in
 **`config/property.ts`** (facts & settings) or **`config/i18n.ts`** (wording).
 
 ## 1. Photos — `public/images/`
-All 15 images are solid-colour stand-ins. Drop in real photos **with the same
-filenames** and the site picks them up automatically. Aim for ~1600px wide,
-landscape.
+Real photos added 2026-07-14 for 13 of 15 images. Remaining:
 
-- [ ] `hero.jpg` — the money shot (house exterior or garden at golden hour)
-- [ ] `house-facade.jpg` — the facade (history section)
-- [ ] `house-living.jpg` — living room
-- [ ] `house-billiards.jpg` — billiards room
-- [ ] `house-kitchen.jpg` — kitchen
-- [ ] `house-veranda.jpg` — veranda dining area
-- [ ] `house-terrace.jpg` — terrace
-- [ ] `house-garden.jpg` — garden
-- [ ] `room-la-sucrerie.jpg`, `room-les-jumeaux.jpg`, `room-capucine.jpg`,
-      `room-marie-lys.jpg`, `room-valerie-anne.jpg`, `room-attic.jpg`
+- [ ] `location-chavenay.jpg` — still a solid-colour placeholder (village /
+      countryside shot)
+- [ ] `room-attic.jpg` — still a solid-colour placeholder
+- [ ] **Low-resolution photos to replace with bigger versions** (currently
+      639px wide — will look soft on laptop screens; aim for ≥1600px):
+      `hero.jpg`, `house-billiards.jpg`, `house-kitchen.jpg`,
+      `house-living.jpg`, `house-veranda.jpg`, `room-la-sucrerie.jpg`
 - [ ] Optional: a dedicated 1200×630 social-preview image (then update
       `images.og` in `config/property.ts`)
 
