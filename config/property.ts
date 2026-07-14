@@ -17,7 +17,8 @@ export const property = {
   /** Used in <title> tags and schema.org */
   legalName: "La Sucrerie — Maison d'hôtes à Chavenay",
 
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.la-sucrerie.com",
+  // The apex domain is primary on Vercel (www redirects to it).
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://la-sucrerie.com",
 
   address: {
     // PLACEHOLDER: exact street address (shown on Location + Contact pages and in schema.org)
